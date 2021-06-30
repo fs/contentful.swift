@@ -10,7 +10,7 @@ import Foundation
 
 /// Small class to store location coordinates. This is used in preferences over CoreLocation types to avoid
 /// extra linking requirements for the SDK.
-@objc
+@objc(CFLocation)
 public class Location: NSObject, Decodable, NSCoding {
 
     /// The latitude of this location coordinate.
